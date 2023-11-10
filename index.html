@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Product Search</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listmakeup.html">My Makeup List</a></li>
+            <li><a href="notepad.html">Note</a></li>
+        </ul>
+    </nav>
+    <h1>💄Glamour Pallete 🎀</h1>
+    <h3>Know your style here</h3>
+
+    <label for="makeup-brand">Select Brand:</label>
+    <select id="makeup-brand"></select>
+
+    <label for="makeup-type">Select Product Type:</label>
+    <select id="makeup-type"></select>
+
+    <button id="searchButton">Search</button>
+
+    <div id="makeupDetails" class="makeup-details-container">
+        <!-- Details will be displayed here -->
+    </div><br>
+    <script type="module" src="fetchApi.js"></script>
+</body>
+</html>

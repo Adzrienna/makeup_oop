@@ -1,0 +1,113 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background-image: url(static/pink.jpeg);
+  text-align: center;
+}
+
+h1,h3 {
+  text-align: center;
+}
+nav {
+  background-color: #af284c;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff2255;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  
+}
+
+input, select {
+  width: 65%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  background-color: #9d0f9b;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* Set margin to auto for horizontal centering */
+  text-align: center;
+}
+button:hover {
+  background-color: rgb(221, 69, 176);
+}
+
+.makeup-product {
+  margin-top: 20px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #db7586;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.makeup-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.makeup-product {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #e8bcbc; /* Set a default background color for each product */
+
+  /* Add additional styling for each product */
+}
+.makeup-product:hover {
+  background-color: #eaeaea; /* Change background color on hover */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="UTF-8" />
+    <title>notepad</title>
+    <link rel="stylesheet" href="index.css" />
+
+
+  </head>
+  <body>
+  <div class="mainWrapper">
+    <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listmakeup.html">My Makeup List</a></li>
+          <li><a href="notepad.html">Note</a></li>
+      </ul>
+  </nav>
+      <h1>mynote</h1>
+    <form>
+    <div class="form-group">
+      <label>File name</label>
+      <input id="fileName" type="text" class="form-control">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label>Note:</label><br>
+    <textarea id="fileContents" class="form-control" ></textarea>
+
+    </div>
+    </form>
+<button id="btnCreate" class="btn btn-default">Create</button>
+<button id="btnRead" class="btn btn-default">Read</button>
+<button id="btnDelete" class="btn btn-default">Delete</button>
+<button id="btnUpdate" class="btn btn-default">Update</button>
+
+</div>
+
+<script src="main.js"> </script>
+</body>
+</html>
